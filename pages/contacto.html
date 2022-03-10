@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Macro News</title>
+
+    <!-- Logo -->
+    <link rel="shortcut icon" href="../img/logo1.JPG">
+
+    <link rel="stylesheet" href="../css/estilos.css">
+    <script src="https://kit.fontawesome.com/8a815a169a.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    
+    <header id="menu">         
+        <nav>
+            <a href="../index.html"><img src="../img/logo.JPG" class="logo" alt="logo" width="200" height="50"></a>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="https://www.indec.gob.ar/">Estadísticas</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>            
+    </header>
+
+
+
+    <section class="presentacion">
+        <div class="flex-item1">
+            <h1>Nuestro Blog de todas las semanas</h1>
+            <p>
+                Macro News es una organización conformada por especialistas en economía que ofrecen sus servicios para mejorar la toma de decisiones de corto, mediano y largo plazo. Contamos con 23 años de trayectoría en el mercado y más de 230 clientes. Ofrecemos servicios de consultoría, de contabilidad y auditoría, informes económicos y soluciones digitales.
+            </p>
+            <div>
+                <button class="btn-principal" type ="submit">COMUNICATE</button>
+                <button class="btn-secundario" type ="submit">SUSCRIBITE</button>
+            </div>
+        </div>
+        <div class="flex-item2">
+            <img src="../img/caratula.jpg" alt="caratula" width="500" height="500">
+        </div>
+    </section>
+
+
+    <div class="wrapper">
+        <section class="servicios" >
+            <div class="titulo-servicios">
+                <h2>Equipo de profesionales con Trayectoria y Compromiso</h2>
+                <p>
+                    Conformado por un gran equipo de especialistas dedicados a ofercer servicios de la más alta calidad.
+                </p>
+            </div>
+            <div class="tipo-servicios">
+                <div>
+                    <i class="fas fa-drafting-compass"></i>
+                    <h3>Nuestro Podcast</h3>
+                    <p>
+                        Escucha nuestro podcast lleno de moralejas del mundo de los negocios.
+                    </p>
+                </div>
+                <div>
+                    <i class="fas fa-laptop"></i>
+                    <h3>Apariciones en los Medios</h3>
+                    <p>
+                        Un video de nuestra última aparición en los medios de comunicación analizando la coyuntura del país.
+                    </p>
+                </div>
+                <div>
+                    <i class="fas fa-cart-arrow-down"></i>
+                    <h3>Newsletter</h3>
+                    <p>
+                        Descargá nuestro último newsletter.
+                    </p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p class="footer-content">
+            Macro News &copy; Todos los derechos reservados 2022
+        </p>
+    </footer>
+    <script>
+       const menu = document.getElementById('menu');
+       window.onscroll = function(){
+           if(window.pageYOffset>10){
+               menu.style.backgroundColor='#fff';
+           }
+           else{
+               menu.style.backgroundColor='initial';
+           }
+       }
+    </script>
+</body>
+</html>
