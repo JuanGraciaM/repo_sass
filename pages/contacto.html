@@ -30,18 +30,80 @@
 
     <section class="presentacion">
         <div class="flex-item1">
-            <h1>Nuestro Blog de todas las semanas</h1>
-            <p>
-                Macro News es una organización conformada por especialistas en economía que ofrecen sus servicios para mejorar la toma de decisiones de corto, mediano y largo plazo. Contamos con 23 años de trayectoría en el mercado y más de 230 clientes. Ofrecemos servicios de consultoría, de contabilidad y auditoría, informes económicos y soluciones digitales.
-            </p>
-            <div>
-                <button class="btn-principal" type ="submit">COMUNICATE</button>
-                <button class="btn-secundario" type ="submit">SUSCRIBITE</button>
+            <h1>Contacto:</h1>
+
+               <!-- Formulario de contacto -->
+               <form>
+
+                    <!-- Título y container para email -->
+                    <label class="titulo_section">Correo Electrónico:</label>
+                        <input type="email" id="femail" required placeholder="tumail@proveedor.com" class="input2">
+                            <br><br>
+            
+                    <!-- Título y container para nombre completo -->
+                    <label class="parrafo_main">Nombre Completo:</label>
+                        <input type="text" id=fapellido required placeholder="Complete su nombre completo." class="input2">
+                            <br><br>
+
+                    <!-- Checkbox de opciones que quiere recibir el cliente -->    
+                    <label class="parrafo_main">¿Le gustaría recibir alguno de estos servicios?</label>
+                        <br><br>
+
+                    <div class="area">
+
+                        <input type="checkbox" id="fM">
+                            <label for="fM">News Letter</label>
+                        <input type="checkbox" id="fF">
+                            <label for="fF">Estadísticas</label>
+                            <br>
+                        <input type="checkbox" id="alertas">
+                            <label for="alertas">Alertas</label>
+                        <input type="checkbox" id="fw">
+                            <label for="fw">Contabilidad</label>
+                            <br>
+                        <input type="checkbox" id="fc">
+                            <label for="fc">Auditoría</label>
+                        <input type="checkbox" id="fv">
+                            <label for="fv">Desarrollo de Soluciones Tecnológicas</label>
+                        <br><br>
+
+                    </div>
+
+                    <!-- Selecciona si es una empresa o un individuo -->
+                    <select name="Persona" id="pjpf" class="area">
+                        
+                        <option>Persona Física</option>
+                        <option>Persona Jurídica</option>
+                        
+                    </select>
+                    
+                    <br><br>
+
+                    <!-- Comentario del contacto -->
+                    <label class="titulo_main">Comentario:</label>
+                    <br><br>
+
+                    <textarea cols="30" rows="10" placeholder="Escribe tu comentario aquí." class="area"></textarea>
+                    <br><br>
+
+                    <!-- Checkbox para aceptar términos y condiciones -->
+                    <input type="checkbox" id="terminos" class="area">
+                        <label for="terminos">Acepta términos y condiciones.</label>
+                    <br><br>
+
+                    <!-- Botón para enviar la info -->
+                    <div>
+
+                        <input type="submit" value="Enviar" class="enviar">
+                        <br><br>
+
+                    </div>
+
+                </form>
             </div>
-        </div>
-        <div class="flex-item2">
-            <img src="../img/caratula.jpg" alt="caratula" width="500" height="500">
-        </div>
+            <div class="flex-item2">
+                <img src="../img/img-contacto1.jpg" alt="ima-contact">
+            </div>
     </section>
 
 
@@ -55,25 +117,7 @@
             </div>
             <div class="tipo-servicios">
                 <div>
-                    <i class="fas fa-drafting-compass"></i>
-                    <h3>Nuestro Podcast</h3>
-                    <p>
-                        Escucha nuestro podcast lleno de moralejas del mundo de los negocios.
-                    </p>
-                </div>
-                <div>
-                    <i class="fas fa-laptop"></i>
-                    <h3>Apariciones en los Medios</h3>
-                    <p>
-                        Un video de nuestra última aparición en los medios de comunicación analizando la coyuntura del país.
-                    </p>
-                </div>
-                <div>
-                    <i class="fas fa-cart-arrow-down"></i>
-                    <h3>Newsletter</h3>
-                    <p>
-                        Descargá nuestro último newsletter.
-                    </p>
+                    <img src="../img/index-ima6.png" alt="ima-contacto">
                 </div>
             </div>
         </section>
