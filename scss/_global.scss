@@ -81,7 +81,7 @@ h3{
     
 }
 
-
+// USO DE EXTEND EN SASS;
 
 .btn-principal{
     @extend .btn;
@@ -103,7 +103,7 @@ h3{
     flex-wrap: $wrap;
 }
 
-// EJEMPLO DE FUNCION EN SASS
+// EJEMPLO DE FUNCION EN SASS ( + OPEARACIONES + CONDICONAL)
 
 @function font-calc($size, $type){
 
