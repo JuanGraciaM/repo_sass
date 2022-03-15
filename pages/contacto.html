@@ -1,145 +1,180 @@
 <!DOCTYPE html>
+
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Macro News - Contacto</title>
-    <meta name="description"   content="El equipo de profesionales más preparados para ayudar a tu empresa o emprendimiento. Asesoría económica, servicios contables y auditoría.">
-    <meta name="keywords"   content="Economía, Contabilidad, Contacto, Servicos, Auditoría, Asesoría, Macroeconomía, Microeconomía">
 
-    <!-- Logo -->
-    <link rel="shortcut icon" href="../img/logo1.JPG">
+    <!-- Head -->
+    <head>
 
-    <link rel="stylesheet" href="../css/estilos.css">
-    <script src="https://kit.fontawesome.com/8a815a169a.js" crossorigin="anonymous"></script>
-</head>
+        <!-- General -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <!-- Titulo -->
+        <title>Macro News - Contacto</title>
+        
+        <!-- SEO -->
+        <meta name="description"   content="El equipo de profesionales más preparados para ayudar a tu empresa o emprendimiento. Asesoría económica, servicios contables y auditoría.">
+        <meta name="keywords"   content="Economía, Contabilidad, Contacto, Servicos, Auditoría, Asesoría, Macroeconomía, Microeconomía">
 
-<body>
+        <!-- Logo -->
+        <link rel="shortcut icon" href="../img/logo1.JPG">
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="../css/estilos.css">
+
+        <!-- JS -->
+        <script src="https://kit.fontawesome.com/8a815a169a.js" crossorigin="anonymous"></script>
     
-    <header id="menu">         
-        <nav>
-            <a href="../index.html"><img src="../img/logo.JPG" class="logo" alt="logo" width="200" height="50"></a>
-            <ul>
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="blog.html">Blog</a></li>
-                <li><a href="https://www.indec.gob.ar/">Estadísticas</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
-            </ul>
-        </nav>            
-    </header>
+    </head>
 
-
-
-    <section class="presentacion">
-        <div class="flex-item1">
-            <h1>Contacto:</h1>
-
-               <!-- Formulario de contacto -->
-               <form>
-
-                    <!-- Título y container para email -->
-                    <label class="titulo_section">Correo Electrónico:</label>
-                        <input type="email" id="femail" required placeholder="tumail@proveedor.com" class="input2">
-                            <br><br>
+    <!-- Cuerpo -->
+    <body>
+        
+        <!-- Header -->
+        <header id="menu">         
             
-                    <!-- Título y container para nombre completo -->
-                    <label class="parrafo_main">Nombre Completo:</label>
-                        <input type="text" id=fapellido required placeholder="Complete su nombre completo." class="input2">
+            <nav>
+                <!-- Logo -->
+                <a href="../index.html"><img src="../img/logo.JPG" class="logo" alt="logo" width="200" height="50"></a>
+                
+                <!-- Navbar -->
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="https://www.indec.gob.ar/">Estadísticas</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+
+            </nav> 
+
+        </header>
+
+
+        <!-- Sección 1 -->
+        <section class="presentacion">
+
+            <div class="flex-item1">
+
+                <h1>Contacto:</h1>
+
+                <!-- Formulario de contacto -->
+                <form>
+
+                        <!-- Título y container para email -->
+                        <label class="titulo_section">Correo Electrónico:</label>
+                            <input type="email" id="femail" required placeholder="tumail@proveedor.com" class="input2">
+                                <br><br>
+                
+                        <!-- Título y container para nombre completo -->
+                        <label class="parrafo_main">Nombre Completo:</label>
+                            <input type="text" id=fapellido required placeholder="Complete su nombre completo." class="input2">
+                                <br><br>
+
+                        <!-- Checkbox de opciones que quiere recibir el cliente -->    
+                        <label class="parrafo_main">¿Le gustaría recibir alguno de estos servicios?</label>
                             <br><br>
 
-                    <!-- Checkbox de opciones que quiere recibir el cliente -->    
-                    <label class="parrafo_main">¿Le gustaría recibir alguno de estos servicios?</label>
-                        <br><br>
+                        <div class="area">
 
-                    <div class="area">
+                            <input type="checkbox" id="fM">
+                                <label for="fM">News Letter</label>
+                            <input type="checkbox" id="fF">
+                                <label for="fF">Estadísticas</label>
+                                <br>
+                            <input type="checkbox" id="alertas">
+                                <label for="alertas">Alertas</label>
+                            <input type="checkbox" id="fw">
+                                <label for="fw">Contabilidad</label>
+                                <br>
+                            <input type="checkbox" id="fc">
+                                <label for="fc">Auditoría</label>
+                            <input type="checkbox" id="fv">
+                                <label for="fv">Desarrollo de Soluciones Tecnológicas</label>
+                            <br><br>
 
-                        <input type="checkbox" id="fM">
-                            <label for="fM">News Letter</label>
-                        <input type="checkbox" id="fF">
-                            <label for="fF">Estadísticas</label>
-                            <br>
-                        <input type="checkbox" id="alertas">
-                            <label for="alertas">Alertas</label>
-                        <input type="checkbox" id="fw">
-                            <label for="fw">Contabilidad</label>
-                            <br>
-                        <input type="checkbox" id="fc">
-                            <label for="fc">Auditoría</label>
-                        <input type="checkbox" id="fv">
-                            <label for="fv">Desarrollo de Soluciones Tecnológicas</label>
-                        <br><br>
+                        </div>
 
-                    </div>
-
-                    <!-- Selecciona si es una empresa o un individuo -->
-                    <select name="Persona" id="pjpf" class="area">
+                        <!-- Selecciona si es una empresa o un individuo -->
+                        <select name="Persona" id="pjpf" class="area">
+                            
+                            <option>Persona Física</option>
+                            <option>Persona Jurídica</option>
+                            
+                        </select>
                         
-                        <option>Persona Física</option>
-                        <option>Persona Jurídica</option>
-                        
-                    </select>
-                    
-                    <br><br>
-
-                    <!-- Comentario del contacto -->
-                    <label class="titulo_main">Comentario:</label>
-                    <br><br>
-
-                    <textarea cols="30" rows="10" placeholder="Escribe tu comentario aquí." class="area"></textarea>
-                    <br><br>
-
-                    <!-- Checkbox para aceptar términos y condiciones -->
-                    <input type="checkbox" id="terminos" class="area">
-                        <label for="terminos">Acepta términos y condiciones.</label>
-                    <br><br>
-
-                    <!-- Botón para enviar la info -->
-                    <div>
-
-                        <input type="submit" value="Enviar" class="enviar">
                         <br><br>
 
-                    </div>
+                        <!-- Comentario del contacto -->
+                        <label class="titulo_main">Comentario:</label>
+                        <br><br>
 
-                </form>
-            </div>
-            <div class="flex-item2">
-                <img src="../img/img-contacto1.jpg" alt="ima-contact">
-            </div>
-    </section>
+                        <textarea cols="30" rows="10" placeholder="Escribe tu comentario aquí." class="area"></textarea>
+                        <br><br>
 
+                        <!-- Checkbox para aceptar términos y condiciones -->
+                        <input type="checkbox" id="terminos" class="area">
+                            <label for="terminos">Acepta términos y condiciones.</label>
+                        <br><br>
 
-    <div class="wrapper">
-        <section class="servicios" >
-            <div class="titulo-servicios">
-                <h2>Equipo de profesionales con Trayectoria y Compromiso</h2>
-                <p>
-                    Conformado por un gran equipo de especialistas dedicados a ofercer servicios de la más alta calidad.
-                </p>
-            </div>
-            <div class="tipo-servicios">
-                <div>
-                    <img src="../img/index-ima6.png" alt="ima-contacto">
+                        <!-- Botón para enviar la info -->
+                        <div>
+
+                            <input type="submit" value="Enviar" class="enviar">
+                            <br><br>
+
+                        </div>
+
+                    </form>
+
                 </div>
-            </div>
-        </section>
-    </div>
 
-    <footer>
-        <p class="footer-content">
-            Macro News &copy; Todos los derechos reservados 2022
-        </p>
-    </footer>
-    <script>
-       const menu = document.getElementById('menu');
-       window.onscroll = function(){
-           if(window.pageYOffset>10){
-               menu.style.backgroundColor='#fff';
-           }
-           else{
-               menu.style.backgroundColor='initial';
-           }
-       }
-    </script>
-</body>
+                <div class="flex-item2">
+                    <img src="../img/img-contacto1.jpg" alt="ima-contact">
+                </div>
+
+        </section>
+
+        <!-- Sección 2 -->
+        <div class="wrapper">
+
+            <section class="servicios" >
+
+                <div class="titulo-servicios">
+                    <h2>Equipo de profesionales con Trayectoria y Compromiso</h2>
+                    <p>
+                        Conformado por un gran equipo de especialistas dedicados a ofercer servicios de la más alta calidad.
+                    </p>
+                </div>
+
+                <div class="tipo-servicios">
+                    <div>
+                        <img src="../img/index-ima6.png" alt="ima-contacto">
+                    </div>
+                </div>
+
+            </section>
+
+        </div>
+
+        <!-- Footer -->
+        <footer>
+            <p class="footer-content">
+                Macro News &copy; Todos los derechos reservados 2022
+            </p>
+        </footer>
+
+        <script>
+        const menu = document.getElementById('menu');
+        window.onscroll = function(){
+            if(window.pageYOffset>10){
+                menu.style.backgroundColor='#fff';
+            }
+            else{
+                menu.style.backgroundColor='initial';
+            }
+        }
+        </script>
+
+    </body>
+
 </html>

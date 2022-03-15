@@ -1,100 +1,150 @@
 <!DOCTYPE html>
+
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Macro News | Asesoría Económica</title>
-    <meta name="description"   content="Asesoría económica para la toma de decisiones. Servicios contables y auditoría.">
-    <meta name="keywords"   content="Economía, Contabilidad, Servicios, Auditoría, Asesoría, Macroeconomía, Microeconomía">
-    <!-- Logo -->
-    <link rel="shortcut icon" href="img/logo1.JPG">
-    <link rel="stylesheet" href="css/estilos.css">
-    <script src="https://kit.fontawesome.com/8a815a169a.js" crossorigin="anonymous"></script>
-</head>
 
-<body>
-    
-    <header id="menu">         
-        <nav>
-            <a href="index.html"><img src="img/logo.JPG" class="logo" alt="logo" width="200" height="50"></a>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="pages/blog.html">Blog</a></li>
-                <li><a href="https://www.indec.gob.ar/">Estadísticas</a></li>
-                <li><a href="pages/contacto.html">Contacto</a></li>
-            </ul>
-        </nav>            
-    </header>
+    <!-- Head -->
+    <head>
+        
+        <!-- General -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
+        <!-- Titulo -->
+        <title>Macro News | Asesoría Económica</title>
+
+        <!-- SEO -->
+        <meta name="description"   content="Asesoría económica para la toma de decisiones. Servicios contables y auditoría.">
+        <meta name="keywords"   content="Economía, Contabilidad, Servicios, Auditoría, Asesoría, Macroeconomía, Microeconomía">
+        
+        <!-- Logo -->
+        <link rel="shortcut icon" href="img/logo1.JPG">
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="css/estilos.css">
+
+        <!-- JS -->
+        <script src="https://kit.fontawesome.com/8a815a169a.js" crossorigin="anonymous"></script>
+    </head>
 
 
-    <section class="presentacion">
-        <div class="flex-item1">
-            <h1>Un servicio único para la toma de Decisiones Económicas</h1>
-            <p>
-                Macro News es una organización conformada por especialistas en economía que ofrecen sus servicios para mejorar la toma de decisiones de corto, mediano y largo plazo. Contamos con 23 años de trayectoría en el mercado y más de 230 clientes. Ofrecemos servicios de consultoría, de contabilidad y auditoría, informes económicos y soluciones digitales.
-            </p>
-            <div>
-                <button class="btn-principal" type ="submit">COMUNICATE</button>
-                <button class="btn-secundario" type ="submit">SUSCRIBITE</button>
-            </div>
-        </div>
-        <div class="flex-item2">
-            <img src="img/caratula.jpg" alt="caratula" width="500" height="400">
-        </div>
-    </section>
+    <!-- Cuerpo -->
+    <body>
+        
+        <!-- Header -->
+        <header id="menu">   
+
+            <!-- Navbar -->    
+            <nav>
+
+                <!-- Logo -->
+                <a href="index.html"><img src="img/logo.JPG" class="logo" alt="logo" width="200" height="50"></a>
+                
+                <!-- Opciones -->
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="pages/blog.html">Blog</a></li>
+                    <li><a href="https://www.indec.gob.ar/">Estadísticas</a></li>
+                    <li><a href="pages/contacto.html">Contacto</a></li>
+                </ul>
+
+            </nav>      
+
+        </header>
 
 
-    <div class="wrapper">
-        <section class="servicios" >
-            <div class="titulo-servicios">
-                <h2>Equipo de profesionales con Trayectoria y Compromiso</h2>
+        <!-- Sección 1 -->
+        <section class="presentacion">
+
+            <!-- Presentación -->
+            <div class="flex-item1">
+
+                <h1>Un servicio único para la toma de Decisiones Económicas</h1>
                 <p>
-                    Conformado por un gran equipo de especialistas dedicados a ofercer servicios de la más alta calidad.
+                    Macro News es una organización conformada por especialistas en economía que ofrecen sus servicios para mejorar la toma de decisiones de corto, mediano y largo plazo. Contamos con 23 años de trayectoría en el mercado y más de 230 clientes. Ofrecemos servicios de consultoría, de contabilidad y auditoría, informes económicos y soluciones digitales.
                 </p>
-            </div>
-            <div class="tipo-servicios">
                 <div>
-                    <i class="fas fa-drafting-compass"></i>
-                    <h3>Blog</h3>
-                    <p>
-                        Servicio de blog, newsletter semanal e información económica actualizada.
-                    </p>
+                    <button class="btn-principal" type ="submit">COMUNICATE</button>
+                    <button class="btn-secundario" type ="submit">SUSCRIBITE</button>
                 </div>
-                <div>
-                    <i class="fas fa-laptop" href="pages/contacto.html"></i>
-                    <h3>Consultoría Económica</h3>
-                    <p>
-                        Servicio de consultoría y asesoria económica perzonalida, confernecias, charlas y más.
-                    </p>
-                </div>
-                <div>
-                    <i class="fas fa-cart-arrow-down" href="pages/contacto.html"></i>
-                    <h3>Servicios Digitales</h3>
-                    <p>
-                        Diseño de soluciones digitales que permitan potenciar tu negocio.
-                    </p>
-                </div>
-            </div>
-        </section>
-    </div>
 
-    <footer>
-        <p class="footer-content">
-            Macro News &copy; Todos los derechos reservados 2022
-        </p>
-    </footer>
-    <script>
-       const menu = document.getElementById('menu');
-       window.onscroll = function(){
-           if(window.pageYOffset>10){
-               menu.style.backgroundColor='#fff';
-           }
-           else{
-               menu.style.backgroundColor='initial';
-           }
-       }
-    </script>
-</body>
+            </div>
+
+            <!-- Imagen principal -->
+            <div class="flex-item2">
+                <img src="img/caratula.jpg" alt="caratula" width="500" height="400">
+            </div>
+
+        </section>
+
+        <!-- Sección 2 -->
+        <div class="wrapper">
+
+            <section class="servicios" >
+
+                <!-- General -->
+                <div class="titulo-servicios">
+                    <h2>Equipo de profesionales con Trayectoria y Compromiso</h2>
+                    <p>
+                        Conformado por un gran equipo de especialistas dedicados a ofercer servicios de la más alta calidad.
+                    </p>
+                </div>
+
+
+                <div class="tipo-servicios">
+
+                    <!-- Servicios 1 -->
+                    <div>
+                        <i class="fas fa-drafting-compass"></i>
+                        <h3>Blog</h3>
+                        <p>
+                            Servicio de blog, newsletter semanal e información económica actualizada.
+                        </p>
+                    </div>
+
+                    <!-- Servicios 2 -->
+                    <div>
+                        <i class="fas fa-laptop" href="pages/contacto.html"></i>
+                        <h3>Consultoría Económica</h3>
+                        <p>
+                            Servicio de consultoría y asesoria económica perzonalida, confernecias, charlas y más.
+                        </p>
+                    </div>
+
+                    <!-- Servicios 3 -->
+                    <div>
+                        <i class="fas fa-cart-arrow-down" href="pages/contacto.html"></i>
+                        <h3>Servicios Digitales</h3>
+                        <p>
+                            Diseño de soluciones digitales que permitan potenciar tu negocio.
+                        </p>
+                    </div>
+
+                </div>
+
+            </section>
+
+        </div>
+
+        <!-- Footer -->
+        <footer>
+            <p class="footer-content">
+                Macro News &copy; Todos los derechos reservados 2022
+            </p>
+        </footer>
+
+        <script>
+        const menu = document.getElementById('menu');
+        window.onscroll = function(){
+            if(window.pageYOffset>10){
+                menu.style.backgroundColor='#fff';
+            }
+            else{
+                menu.style.backgroundColor='initial';
+            }
+        }
+        </script>
+
+    </body>
+
 </html>
