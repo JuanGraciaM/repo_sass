@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <!-- Head -->
+    <head>
+
+        <!-- General -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <!-- Titulo -->
+        <title>Macro News - Servicios</title>
+    
+        <!-- SEO -->
+        <meta name="description"   content="Nuestros servicios económicos y contables.">
+        <meta name="keywords"   content="Economía, Contabilidad,Servicios, Macroeconomía, Microeconomía, Newsletter">
+
+        <!-- Logo -->
+        <link rel="shortcut icon" href="../img/logo1.JPG">
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="../css/estilos.css">
+        
+        <!-- JS -->
+        <script src="https://kit.fontawesome.com/8a815a169a.js" crossorigin="anonymous"></script>
+    </head>
+
+    <!-- Cuerpo -->
+    <body>
+        
+        <!-- Header -->
+        <header id="menu">    
+
+            <nav>
+                <!-- Logo -->
+                <a href="../index.html"><img src="../img/logo.JPG" class="logo" alt="logo" width="200" height="50"></a>
+                
+                <!-- Navbar -->
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="servicios.html">Servicios</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                    <li><a href="galeria.html">Galería</a></li>
+                </ul>
+
+            </nav> 
+
+        </header>
+
+
+        <!-- Sección 1 -->
+        <section class="presentacion">
+
+            <!-- Principal -->
+            <div class="flex-item1">
+                <h1>Productos y Servicios</h1>
+                <p>
+                    El cliente tiene la opción de suscribirse a un abono completo que incluye todas las publicaciones del Estudio, presentaciones mensuales, consultas específicas y datos y proyecciones estadísticos o también puede seleccionar la opción que mejor se ajuste a sus necesidades.
+                </p>
+
+                <div>
+                    <!-- Suscribir -->
+                    <input class="btn-secundario" type="email" placeholder="Correo Electrónico" aria-label="email">
+                    <a><button class="btn-principal" type="submit">SUSCRIBIR</button></a>
+                </div>
+
+            </div>
+
+            <!-- Imagen principal -->
+            <div class="flex-item2">
+                <img src="../img/servicios-img.jpg" alt="caratula" width="500" height="500">
+            </div>
+
+        </section>
+
+        <!-- Sección 2 -->
+        <div class="wrapper">
+
+            <section class="servicios" >
+
+                <!-- General -->
+                <div class="titulo-servicios">
+                    <h2>Informes</h2>
+                    <p>
+                        Presentaciones semanales, mensuales o bimestrales a clientes sobre temas macroeconómicos. Las charlas incluyen un Power Point de respaldo y permiten un asesoramiento personalizado y específico.
+                    </p>
+                </div>
+                
+
+                <div class="tipo-servicios">
+
+                    <!-- Overview -->
+                    <div>
+                        <h3>Overview</h3>
+                        <p>
+                            Este informe ofrece un panorama de la coyuntura política y macroeconómica nacional, abordando asimismo aspectos internacionales con repercusión local. Versión resumida en inglés a disposición.
+                        </p>
+                    </div>
+
+                    <!-- Overfin -->
+                    <div>
+                        <h3>Overfin</h3>
+                        <p>
+                            Este informe ofrece un panorama financiero y económico internacional. Incluye un anexo estadístico con los indicadores financieros más relevantes.
+                        </p>
+                    </div>
+                </div>
+                
+
+                <div class="tipo-servicios">
+        
+                    <!-- Relevamiento de precios -->
+                    <div>
+                        <h3>Relevamiento de precios</h3>
+                        <p>
+                            Análisis de la evolución del Índice de precios al consumidor del área metropolitana elaborado por MacroView S.A. en base a encuestas semanales propias.
+                        </p>
+                    </div>
+
+                    <!-- Contabilidiad y Auditoría -->
+                    <div>
+                        <h3>Contabilidiad y Auditoría</h3>
+                        <p>
+                            Confección de estados contables y auditoría. Servicio completo contable. Libro Diario, Libro Mayor, Balances, asesoramiento de costos y más.
+                        </p>
+                    </div>                        
+
+
+                </div>
+                <br>
+                <br>
+
+                <div class="titulo-servicios">
+                    <h2>Trabajos especiales</h2>
+                    <p>
+                        Elaboración de estudios especiales sobre distintos sectores económicos en base a las necesidades específicas de cada cliente.
+                    </p>
+                </div>
+
+            </section>
+
+        </div>
+
+
+        <!-- Footer -->
+        <footer>
+            <p class="footer-content">
+                Macro News &copy; Todos los derechos reservados 2022
+            </p>
+        </footer>
+
+        <script>
+        const menu = document.getElementById('menu');
+        window.onscroll = function(){
+            if(window.pageYOffset>10){
+                menu.style.backgroundColor='#fff';
+            }
+            else{
+                menu.style.backgroundColor='initial';
+            }
+        }
+        </script>
+
+    </body>
+
+</html>
